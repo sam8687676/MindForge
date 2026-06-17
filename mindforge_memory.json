@@ -1,0 +1,42 @@
+[
+    {
+        "timestamp": 1781670196.2213328,
+        "command": "Remeber my physics test is tommorow",
+        "response": "I have received your command: Remeber my physics test is tommorow"
+    },
+    {
+        "timestamp": 1781670206.3847284,
+        "command": "what do you know about me",
+        "response": "I don't know anything about you yet."
+    },
+    {
+        "timestamp": 1781670271.4854672,
+        "command": "Remember that my physics test is tomorrow",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781670290.3224156,
+        "command": "What do you know about me",
+        "response": "Here's what I know:\n\n\u2022 my physics test is tomorrow"
+    },
+    {
+        "timestamp": 1781670633.9772203,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781670653.8358812,
+        "command": "Remember that my physics test is tommorow",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781670673.2646253,
+        "command": "Remember that i like cold coffee",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781670682.121557,
+        "command": "what do you know about me",
+        "response": "Here's what I know:\n\n\u2022 my physics test is tomorrow\n\u2022 my physics test is tommorow\n\u2022 i like cold coffee"
+    }
+]
