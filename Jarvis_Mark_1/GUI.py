@@ -1,3 +1,8 @@
+import asyncio
+import tempfile
+import edge_tts
+from playsound import playsound
+import os
 import time
 import json
 import threading
@@ -14,14 +19,30 @@ PROFILE_FILE = "user_profile.json"
 
 def speak_text(text):
     try:
-        engine = pyttsx3.init()
-        engine.setProperty("rate", 160)
-        engine.setProperty("volume", 1.0)
 
-        engine.say(text)
-        engine.runAndWait()
-        engine.stop()
+        async def generate_voice(filename):
+            communicate = edge_tts.Communicate(
+                text,
+                voice="en-US-GuyNeural"
+            )
+            await communicate.save(filename)
 
+        with tempfile.NamedTemporaryFile(
+            delete=False,
+            suffix=".mp3"
+        ) as temp_audio:
+
+            filename = temp_audio.name
+
+        asyncio.run(generate_voice(filename))
+
+        playsound(filename)
+
+        try:
+            os.remove(filename)
+        except:
+            pass
+        
     except Exception as e:
         print("TTS Error:", e)
 
@@ -113,15 +134,15 @@ class MindForgeGUI:
 
                 response = "I'll remember that."
 
-            elif "what do you know about me" in command_lower:
+            elif "list memory" in command_lower or "show memories" in command_lower:
                 profile = load_profile()
 
                 if len(profile["facts"]) == 0:
-                    response = "I don't know anything about you yet."
+                    response = "I don't have any memories yet."
                 else:
-                    response = "Here's what I know:\n"
-                    for fact in profile["facts"]:
-                        response += f"\n• {fact}"
+                    response = "Here are the things I remember:\n"
+                    for idx, fact in enumerate(profile["facts"], start=1):
+                        response += f"\n{idx}. {fact}\n"
 
             else:
                 response = llm_reason(command)

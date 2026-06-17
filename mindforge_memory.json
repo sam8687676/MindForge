@@ -38,5 +38,70 @@
         "timestamp": 1781670682.121557,
         "command": "what do you know about me",
         "response": "Here's what I know:\n\n\u2022 my physics test is tomorrow\n\u2022 my physics test is tommorow\n\u2022 i like cold coffee"
+    },
+    {
+        "timestamp": 1781672451.6441944,
+        "command": "Remember that I like cold coffee",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781672465.73237,
+        "command": "List Memories",
+        "response": "I have received your command: List Memories"
+    },
+    {
+        "timestamp": 1781672477.6826787,
+        "command": "List memories",
+        "response": "I have received your command: List memories"
+    },
+    {
+        "timestamp": 1781672516.1223042,
+        "command": "list memory",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n"
+    },
+    {
+        "timestamp": 1781672539.390059,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n"
+    },
+    {
+        "timestamp": 1781673475.5087588,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781673941.0558045,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781673957.3969052,
+        "command": "What do you know about me",
+        "response": "I have received your command: What do you know about me"
+    },
+    {
+        "timestamp": 1781673970.3218677,
+        "command": "oh helloo",
+        "response": "I have received your command: oh helloo"
+    },
+    {
+        "timestamp": 1781674173.8914678,
+        "command": "helloo",
+        "response": "I have received your command: helloo"
+    },
+    {
+        "timestamp": 1781674245.907572,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781674260.8435478,
+        "command": "list memories",
+        "response": "I have received your command: list memories"
+    },
+    {
+        "timestamp": 1781674286.298748,
+        "command": "list memory",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n"
     }
 ]
