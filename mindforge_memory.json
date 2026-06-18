@@ -103,5 +103,250 @@
         "timestamp": 1781674286.298748,
         "command": "list memory",
         "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n"
+    },
+    {
+        "timestamp": 1781674589.4739246,
+        "command": "helooo",
+        "response": "I have received your command: helooo"
+    },
+    {
+        "timestamp": 1781674597.294655,
+        "command": "fuk",
+        "response": "I have received your command: fuk"
+    },
+    {
+        "timestamp": 1781674606.0295737,
+        "command": "fk",
+        "response": "I have received your command: fk"
+    },
+    {
+        "timestamp": 1781674617.4627314,
+        "command": "yeahhhhhhhhhh",
+        "response": "I have received your command: yeahhhhhhhhhh"
+    },
+    {
+        "timestamp": 1781674627.3946683,
+        "command": "yeeeaaaahhhhhh",
+        "response": "I have received your command: yeeeaaaahhhhhh"
+    },
+    {
+        "timestamp": 1781674636.8173275,
+        "command": "yeah",
+        "response": "I have received your command: yeah"
+    },
+    {
+        "timestamp": 1781798183.7513041,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781798210.406656,
+        "command": "add task revise kinematics",
+        "response": "Task 'revise kinematics' added."
+    },
+    {
+        "timestamp": 1781798218.3193486,
+        "command": "list task",
+        "response": "I have received your command: list task"
+    },
+    {
+        "timestamp": 1781798276.8621821,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781798284.0246208,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781798304.792201,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781798310.8717248,
+        "command": "why",
+        "response": "I have received your command: why"
+    },
+    {
+        "timestamp": 1781798335.6588695,
+        "command": "Show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]"
+    },
+    {
+        "timestamp": 1781799872.2281125,
+        "command": "Remeber i like cold coffee",
+        "response": "I have received your command: Remeber i like cold coffee"
+    },
+    {
+        "timestamp": 1781799896.1218932,
+        "command": "Remember that i have physics test tmrw",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781799914.1903753,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]"
+    },
+    {
+        "timestamp": 1781800106.2968047,
+        "command": "remember i like cold coffee",
+        "response": "I have received your command: remember i like cold coffee"
+    },
+    {
+        "timestamp": 1781800122.1365488,
+        "command": "remember that i like cold coffee",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781800131.9607034,
+        "command": "show memory",
+        "response": "I have received your command: show memory"
+    },
+    {
+        "timestamp": 1781800140.4850693,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n"
+    },
+    {
+        "timestamp": 1781800179.5767279,
+        "command": "add task: revise kinematics",
+        "response": "Task ': revise kinematics' added."
+    },
+    {
+        "timestamp": 1781800189.4034998,
+        "command": "show task",
+        "response": "I have received your command: show task"
+    },
+    {
+        "timestamp": 1781800199.1390114,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]\n2. : revise kinematics [\u2717]"
+    },
+    {
+        "timestamp": 1781800368.7631395,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781800389.1106732,
+        "command": "remember that i have blue pen",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781800397.8438115,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]\n2. : revise kinematics [\u2717]"
+    },
+    {
+        "timestamp": 1781800441.7408686,
+        "command": "add task: go to walmart",
+        "response": "Task ': go to walmart' added."
+    },
+    {
+        "timestamp": 1781800451.17247,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]\n2. : revise kinematics [\u2717]\n3. : go to walmart [\u2717]"
+    },
+    {
+        "timestamp": 1781800470.6187413,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n\n7. i have blue pen\n"
+    },
+    {
+        "timestamp": 1781800654.8291445,
+        "command": "hello",
+        "response": "I have received your command: hello"
+    },
+    {
+        "timestamp": 1781800697.7755997,
+        "command": "add task: help myself",
+        "response": "Task ': help myself' added."
+    },
+    {
+        "timestamp": 1781800706.5067382,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n\n7. i have blue pen\n"
+    },
+    {
+        "timestamp": 1781800738.4885125,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]\n2. : revise kinematics [\u2717]\n3. : go to walmart [\u2717]\n4. : help myself [\u2717]"
+    },
+    {
+        "timestamp": 1781800759.936909,
+        "command": "do you know",
+        "response": "I have received your command: do you know"
+    },
+    {
+        "timestamp": 1781800767.555228,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n\n7. i have blue pen\n"
+    },
+    {
+        "timestamp": 1781800832.3049452,
+        "command": "Remember that i have deadline today",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781800838.227534,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n\n7. i have blue pen\n\n8. i have deadline today\n"
+    },
+    {
+        "timestamp": 1781800917.5379288,
+        "command": "remember that i have class",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781800931.1298304,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n\n7. i have blue pen\n\n8. i have deadline today\n\n9. i have class\n"
+    },
+    {
+        "timestamp": 1781800971.3112242,
+        "command": "add task: revise physics",
+        "response": "Task ': revise physics' added."
+    },
+    {
+        "timestamp": 1781800983.0457537,
+        "command": "add task: revise maths",
+        "response": "Task ': revise maths' added."
+    },
+    {
+        "timestamp": 1781800987.5751486,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]\n2. : revise kinematics [\u2717]\n3. : go to walmart [\u2717]\n4. : help myself [\u2717]\n5. : revise physics [\u2717]\n6. : revise maths [\u2717]"
+    },
+    {
+        "timestamp": 1781801111.8404603,
+        "command": "added task: go to walmart",
+        "response": "I have received your command: added task: go to walmart"
+    },
+    {
+        "timestamp": 1781801126.3560987,
+        "command": "show taks",
+        "response": "I have received your command: show taks"
+    },
+    {
+        "timestamp": 1781801132.7766593,
+        "command": "show tasks",
+        "response": "Here are your tasks:\n\n1. revise kinematics [\u2717]\n2. : revise kinematics [\u2717]\n3. : go to walmart [\u2717]\n4. : help myself [\u2717]\n5. : revise physics [\u2717]\n6. : revise maths [\u2717]"
+    },
+    {
+        "timestamp": 1781801179.0809577,
+        "command": "remember that i have class on sunday",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781801197.533998,
+        "command": "remember that i have jee mock on monday",
+        "response": "I'll remember that."
+    },
+    {
+        "timestamp": 1781801207.7627542,
+        "command": "show memories",
+        "response": "Here are the things I remember:\n\n1. my physics test is tomorrow\n\n2. my physics test is tommorow\n\n3. i like cold coffee\n\n4. I like cold coffee\n\n5. i have physics test tmrw\n\n6. i like cold coffee\n\n7. i have blue pen\n\n8. i have deadline today\n\n9. i have class\n\n10. i have class on sunday\n\n11. i have jee mock on monday\n"
     }
 ]

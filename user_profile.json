@@ -3,9 +3,41 @@
         "my physics test is tomorrow",
         "my physics test is tommorow",
         "i like cold coffee",
-        "I like cold coffee"
+        "I like cold coffee",
+        "i have physics test tmrw",
+        "i like cold coffee",
+        "i have blue pen",
+        "i have deadline today",
+        "i have class",
+        "i have class on sunday",
+        "i have jee mock on monday"
     ],
-    "tasks": [],
+    "tasks": [
+        {
+            "name": "revise kinematics",
+            "completed": false
+        },
+        {
+            "name": ": revise kinematics",
+            "completed": false
+        },
+        {
+            "name": ": go to walmart",
+            "completed": false
+        },
+        {
+            "name": ": help myself",
+            "completed": false
+        },
+        {
+            "name": ": revise physics",
+            "completed": false
+        },
+        {
+            "name": ": revise maths",
+            "completed": false
+        }
+    ],
     "projects": [],
     "preferences": {}
 }

@@ -1,3 +1,4 @@
+#Libraries 
 import asyncio
 import tempfile
 import edge_tts
@@ -11,8 +12,6 @@ from pathlib import Path
 
 import tkinter as tk
 from tkinter import scrolledtext
-import pyttsx3
-
 
 MEMORY_FILE = "mindforge_memory.json"
 PROFILE_FILE = "user_profile.json"
@@ -143,7 +142,24 @@ class MindForgeGUI:
                     response = "Here are the things I remember:\n"
                     for idx, fact in enumerate(profile["facts"], start=1):
                         response += f"\n{idx}. {fact}\n"
+            elif command_lower.startswith("add task"):
+                task = command.split("add task", 1)[1].strip()
+                profile = load_profile()
+                profile["tasks"].append({"name": task, "completed": False})
+                save_profile(profile)
 
+                response = f"Task '{task}' added."
+            elif "show tasks" in command_lower:
+                profile = load_profile()
+                tasks = profile.get("tasks", [])
+
+                if not tasks:
+                    response = "You have no tasks."
+                else:
+                    response = "Here are your tasks:\n"
+                    for idx, task in enumerate(tasks, start=1):
+                        status = "✓" if task["completed"] else "✗"
+                        response += f"\n{idx}. {task['name']} [{status}]"
             else:
                 response = llm_reason(command)
 
